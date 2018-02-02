@@ -20,7 +20,7 @@ return [
         ....
         'posCredit' => [
             'class' => 'AxelPAL\yii2\PosCredit',
-            'userId' => $userID',
+            'userId' => $userID,
             'userToken' => $userToken,
         ]
     ],
