@@ -14,12 +14,7 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "AxelPAL\\yii2\\PosCredit\\": ["src/"]
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "AxelPAL\\yii2\\PosCredit\\Tests\\": ["tests/src"]
+      "AxelPAL\\yii2\\": ["src/"]
     }
   },
   "require": {
