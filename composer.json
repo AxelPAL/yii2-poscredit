@@ -1,0 +1,30 @@
+{
+  "name": "axelpal/yii2-poscredit",
+  "description": "PosCredit integration component for Yii2",
+  "keywords": ["PosCredit", "yii2", "yii2-poscredit"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AxelPAL",
+      "email": "axelpal@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "AxelPAL\\yii2\\PosCredit\\": ["src/"]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AxelPAL\\yii2\\PosCredit\\Tests\\": ["tests/src"]
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": "*",
+    "axelpal/poscredit": "*"
+  }
+}
