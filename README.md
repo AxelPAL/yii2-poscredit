@@ -23,5 +23,5 @@ return [
 
 ### Check status of profile
 ```php
-    $profileData = Yii::$app->posCredit->getStatusShort($profileId);
+$profileData = Yii::$app->posCredit->getStatusShort($profileId);
 ```
