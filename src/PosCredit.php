@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace AxelPAl\yii2\PosCredit;
+namespace AxelPAL\yii2\PosCredit;
 
 use AxelPAL\PosCredit\LoanService;
 use AxelPAL\PosCredit\Requests\StatusShortOptyRequest;
@@ -16,7 +16,7 @@ use yii\base\InvalidConfigException;
  * Yii2 Component for PosCredit integration.
  *
  * @author AxelPAL
- * @package AxelPAl\yii2\PosCredit
+ * @package AxelPAL\yii2\PosCredit
  */
 class PosCredit extends Component
 {
