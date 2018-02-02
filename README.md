@@ -19,7 +19,7 @@ return [
     'components' => [
         ....
         'posCredit' => [
-            'class' => 'AxelPAL\yii2\PosCredit\PosCredit',
+            'class' => 'AxelPAL\yii2\PosCredit',
             'userId' => $userID',
             'userToken' => $userToken,
         ]
